@@ -1,0 +1,14 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Getting Started: Serving Web Content</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link href="../static/css/style.css" rel="stylesheet" th:href="@{/css/style.css}"/>
+</head>
+<body>
+	<p th:text="'' + ${tagline} " />
+    <p th:text="'nodeName: ' + ${nodeName} " />
+    <p th:text="'version: ' + ${version} " />
+    <p th:text="'clusterUUID: ' + ${clusterUUID} " />
+</body>
+</html>
